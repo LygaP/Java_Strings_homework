@@ -24,11 +24,29 @@ public class Main {
             System.out.println("Trumpiausias yra vardas, tiktai " + lastName.length() + " simboliai");
         }
 
-        //Sukurti du kintamuosius. Jiems priskirti savo mylimo aktoriaus vardą ir pavardę kaip
+        //2. Sukurti du kintamuosius. Jiems priskirti savo mylimo aktoriaus vardą ir pavardę kaip
         //stringus. Vardą atspausdinti tik didžiosiom raidėm, o pavardę tik mažosioms.
         //(LEONARDO dicaprio)
 
         System.out.println("============ Uzd. 2. =============");
+
+        String name2 = "Matthew";
+        String lastName2 = "McConaughey";
+
+        System.out.println(name2.toUpperCase());
+        System.out.println( lastName2.toLowerCase());
+
+        //3. Sukurti du kintamuosius. Jiems priskirti savo mylimo aktoriaus vardą ir pavardę kaip
+        //stringus. Sukurti trečią kintamąjį ir jam priskirti stringą, sudarytą iš pirmų vardo ir
+        //pavardės kintamųjų raidžių. Jį atspausdinti.
+
+        System.out.println("============ Uzd. 3. =============");
+
+
+
+
+
+
 
 
 
