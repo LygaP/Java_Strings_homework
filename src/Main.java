@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -59,10 +61,8 @@ public class Main {
         String name4 = "Keanu";
         String lastName4 = "Reeves";
 
-        String example = "lotiskaistadiena";
-
-        System.out.println(example.length());
-
+        System.out.println(name4.length());
+        System.out.println(lastName4.length());
 
 
 
@@ -82,8 +82,8 @@ public class Main {
 
         System.out.println("============ Uzd. 6. =============");
 
-        String txt1 = "An American in Paris";
-
+        String txt1 = "An American in Paris";//a, e, i, o, u
+        String replaceB = txt1.replace("a", "");
 
 
 
